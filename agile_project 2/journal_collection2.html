@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear Kokoro</title>
+    <link rel="stylesheet" href="assets/journal_collection2.css" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="image/dear-kokoro.png" type="image/x-icon" sizes="128x128">
+
+    <script src="https://kit.fontawesome.com/9fc7a94d07.js" crossorigin="anonymous"></script>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+    </script>
+</head>
+
+
+
+
+
+<body class=" body-pd">
+    <div class="sidebar" id="navbar2">
+        <nav class="nav">
+            <div class="sidebar_2">
+
+                <div class="logo_sidebar">
+                    <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                    <a href="#" class="nav__logo"> <img id="sidebar_logo" class="sidebar_image" alt="" src="logo2.png"></a>
+                </div>
+                <div class="nav_list">
+                    <a href="#" class="nav__link active">
+                        <form action="submit" class="Search-form">
+                            <div class="Search-inner">
+                                <input type="search" id="SearchInput" class="searchinput" placeholder="Search" />
+                                <label id="label" class="Label" for="SearchInput"></label>
+                            </div>
+
+                        </form>
+                        <span class="nav__name" id="nav_name_search">Search</span>
+
+                    </a>
+
+                </div>
+                <div class="nav_list">
+                    <a href="#" class="nav__link active">
+                        <ion-icon name="home-outline" class="nav__icon" id="home_icon"></ion-icon>
+                        <span class="nav__name" id="nav_name_home">Home</span>
+                    </a>
+                </div>
+
+                <div class="nav_list">
+                    <a href="#" class="nav__link active">
+                        <ion-icon name="list-outline" class="nav__icon" id="list_icon"></ion-icon>
+                        </ion-icon> <span class="nav__name" id="nav_name_list">Add New Entry</span>
+
+                    </a>
+                </div>
+                <!-- <div class="nav__link collapse">
+                    <ion-icon name="list-outline" class="nav__icon" id="list_icon"></ion-icon>
+                    </ion-icon>
+                    <span class="nav__name" id="nav_name_list">View All Entries</span>
+
+                    <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                    <ul class="collapse__menu">
+                        <a href="journal_collection.html" id="All Entry" class="collapse__sublink">All Entry</a>
+                        <a href="#" id="second_sublink" class="collapse__sublink">Group</a>
+                        <a href="#" id="third_sublink" class="collapse__sublink">Members</a>
+                    </ul>
+                </div> -->
+
+                <div class="dropdown">
+
+                    <!-- <div class="menu">
+                        <img src="/image/menu.png" onclick="menuFunction()" class="dropbtn">
+                    </div> -->
+
+                    <div class="dropdown_list">
+                        <a href="Q&A.html" class="dropdown-content">
+                            <img src="/image/daily_checker.png" id="dailychecker_icon" class="function_icon" />
+                            <span class="dropdown__name" id="nav_name_daily">Daily Checker</span>
+                        </a>
+                    </div>
+
+                    <div class="dropdown_list">
+                        <a href="analysis_tracker.html" class="dropdown-content">
+                            <img src="/image/bar-graph.png" id="analyzetracker_icon" class="function_icon" />
+                            <span class="dropdown__name" id="nav_name_analyze">Analysis Tracker</span>
+                        </a>
+                    </div>
+
+                    <div class="dropdown_list">
+                        <a href="journal.html" class="dropdown-content">
+                            <img src="/image/journal (1).png" id="journal_icon" class="function_icon" />
+                            <span class="dropdown__name" id="nav_name_journal">Journal</span>
+                        </a>
+                    </div>
+
+                    <div class="dropdown_list">
+                        <a href="#" class="dropdown-content">
+                            <img src="/image/quote.png" id="quote_icon" class="function_icon" />
+                            <span class="dropdown__name" id="nav_name_quote">Daily Quote</span>
+                        </a>
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="header">
+        <div class="logo_area">
+            <a href="main_page.html"><img class="logo_image" alt="" src="logo2.png"></a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="Q&A.html">Daily Checker</a>
+                </li>
+                <li>
+                    <a href="analysis_tracker.html">Analysis Tracker</a>
+                </li>
+
+                <li>
+                    <a href="journal.html">Journal</a>
+                </li>
+                <li>
+                    <a class="last_element">Daily Quote</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <div class="dropdown">
+
+            <div class="menu">
+                <img src="/image/menu.png" onclick="menuFunction()" class="dropbtn">
+            </div>
+
+
+            <div id="menuDropdown" class="dropdown-content">
+                <a href="Q&A.html">Daily Checker</a>
+                <a href="analysis_tracker.html">Analysis Tracker</a>
+                <a href="journal.html">Journal</a>
+                <a href="#">Daily Quote</a>
+            </div>
+
+        </div> -->
+    </div>
+
+
+</body>
+
+<main>
+
+
+    <!-- <div id="contents">
+        <div id="main">
+            <ul id="pic">
+                <li>
+                    <figure>
+                        <a href="journal.html">
+                            <img src="https://muuuuu.org/wp-content/uploads/2023/08/12.jpg">
+
+                        </a>
+                        <figcaption class="cap">
+                            <a href="journal.html">
+                                First
+                            </a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+    <div class="gridywrap">
+        <div class="gridy-2 gridyhe-1">
+            <div class="gridimg" style="background-image: url(https://ununsplash.imgix.net/photo-1415302199888-384f752645d0?q=75&fm=jpg&s=823bdcc1b7ad955f5180efd352561016)">&nbsp;</div>
+
+            <div class="gridinfo">
+                <h3>Item Title</h3>
+                <div class="gridmeta">
+                    <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
+                    <p class="gridwho"><i class="fa fa-user"></i> Bruce Wayne</p>
+                </div>
+                <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+                <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+        <div class="gridy-1 gridyhe-1">
+            <div class="gridimg" style="background-image: url(https://unsplash.imgix.net/photo-1417722009592-65fa261f5632?q=75&fm=jpg&s=553e7d8a753f4d7b2a4161dcbe9d9801)">&nbsp;</div>
+
+            <div class="gridinfo">
+                <h3>Item Title</h3>
+                <div class="gridmeta">
+                    <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
+                    <p class="gridwho"><i class="fa fa-user"></i> Harvey Dent</p>
+                </div>
+                <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+                <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+        <div class="gridy-1 gridyhe-2">
+            <div class="gridimg" style="background-image: url(https://ununsplash.imgix.net/photo-1416934625760-d56f5e79f6fe?q=75&fm=jpg&s=032ca37757b3dc1851661856b956a24c)">&nbsp;</div>
+
+            <div class="gridinfo">
+                <h3>Item Title</h3>
+                <div class="gridmeta">
+                    <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
+                    <p class="gridwho"><i class="fa fa-user"></i> Clark Kent</p>
+                </div>
+                <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+                <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+        <div class="gridy-2 gridyhe-1">
+            <div class="gridimg" style="background-image: url(https://unsplash.imgix.net/uploads/1412862685615b0212e3d/5fcb0a55?q=75&fm=jpg&s=e003fb9a4e39e3c07e4a94f7e0ef3db8)">&nbsp;</div>
+
+            <div class="gridinfo">
+                <h3>Item Title</h3>
+                <div class="gridmeta">
+                    <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
+                    <p class="gridwho"><i class="fa fa-user"></i> Tony Stark</p>
+                </div>
+                <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+                <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+        <div class="gridy-1 gridyhe-1">
+            <div class="gridimg" style="background-image: url(https://ununsplash.imgix.net/photo-1418227165283-1595d13726cd?q=75&fm=jpg&s=cace1590a29be6d4d6db13c3ebd1ba72)">&nbsp;</div>
+            <div class="gridinfo">
+                <h3>Item Title</h3>
+                <div class="gridmeta">
+                    <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
+                    <p class="gridwho"><i class="fa fa-user"></i> Steve Rogers</p>
+                </div>
+                <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+                <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+        <div class="gridy-1 gridyhe-1">
+            <div class="gridimg" style="background-image: url(https://unsplash.imgix.net/uploads/1411589183965bdf6e141/5f468e98?q=75&fm=jpg&s=007333c388fb36767cbd152600bea6b8)">&nbsp;</div>
+
+            <div class="gridinfo">
+                <h3>Item Title</h3>
+                <div class="gridmeta">
+                    <p class="gridwhen"><i class="fa fa-clock-o"></i> 17:22 17th Feb 2015</p>
+                    <p class="gridwho"><i class="fa fa-user"></i> Natasha Romanoff</p>
+                </div>
+                <p class="gridexerpt">Lorem ipsum dolor set amet, some dummy content..</p>
+                <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer_background">
+
+    </div>
+
+    <div class="footer">
+
+
+        <div class="footer_logo">
+            <h2>
+                <img class="footer_image" src="logo2.png">
+            </h2>
+            <h4>
+                A space to communicate and enjoy together with Dear Kokoro!
+            </h4>
+        </div>
+        <div class="footer_container">
+            <button class="btn">
+              <i class="fa fa-facebook" style="font-size:25px;"></i>
+            </button>
+            <button class="btn">
+              <i class="fa fa-instagram" style="font-size:25px;"></i>
+            </button>
+            <button class="btn">
+              <i class="fa fa-twitter" style="font-size:25px;"></i>
+            </button>
+            <button class="btn">
+              <i class="fa-regular fa-envelope" style="font-size:25px;"></i>
+            </button>
+        </div>
+
+
+
+    </div>
+</main>
+
+
+
+
+<script src="assets/journal.js"></script>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+</footer>
+
+</html>
